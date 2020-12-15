@@ -11,7 +11,7 @@ public class GameTimer : MonoBehaviour {
     //update method starts timer
     void Update()
     {
-        timeLeft = Time.deltaTime;
+        timeLeft -= Time.deltaTime;
         startText.text = (timeLeft).ToString("0");
         if (timeLeft < 0)
         {
