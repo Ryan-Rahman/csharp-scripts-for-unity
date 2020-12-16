@@ -1,6 +1,6 @@
 //simple timed game for 290 seconds, customizable
 using UnityEngine;
-using UintyEngine.SceneManagement;
+using UintyEngine.UI;
 
 public class GameTimer : MonoBehaviour {
     //how much time is left
