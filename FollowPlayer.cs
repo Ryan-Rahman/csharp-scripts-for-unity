@@ -9,6 +9,6 @@ public class FollowPlayer : MonoBehaviour {
     //update function
     void Update() {
     //binding camera above player
-    transfor.position = newcampos.transform.position;
+    transform.position = newcampos.transform.position;
     }
 }
